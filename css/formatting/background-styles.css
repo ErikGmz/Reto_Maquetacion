@@ -1,0 +1,27 @@
+.top-bg-pattern {
+    background-image: url("/images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: clamp(376px, 40vw, 800px) clamp(176px, 40vh, 800px);
+    background-position: left top;
+}
+
+.bottom-bg-pattern {
+    background-image: url("/images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: clamp(376px, 74vw, 800px) clamp(176px, 74vh, 800px);
+    background-position: right bottom;
+}
+
+@media (max-width: 375px) {
+    .top-bg-pattern {
+        background-size: 100%;
+        background-image: url("/images/bg-pattern-top-mobile.svg");
+    }
+
+    .bottom-bg-pattern {
+        background-image: url("/images/bg-pattern-bottom-mobile.svg");
+        background-size: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+.container-max-width {
+    max-width: 1300px;
+}
+
+.container-vertical-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+    .container-max-width {
+        max-width: 600px;
+    }
+}
