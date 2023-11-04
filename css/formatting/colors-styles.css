@@ -1,0 +1,37 @@
+:root {
+    --dark-magenta-primary: hsl(300, 43%, 22%);
+    --soft-pink-primary: hsl(314, 29%, 53%);
+    --dark-grayish-magenta-neutral: hsl(303, 10%, 53%);
+    --light-grayish-magenta-neutral: hsl(300, 24%, 96%);
+    --white-neutral: hsl(0, 0%, 100%);
+}
+
+/* Font colors */
+.dark-magenta-primary-color {
+    color: var(--dark-magenta-primary);
+}
+
+.soft-pink-primary-color {
+    color: var(--soft-pink-primary);
+}
+
+.dark-grayish-magenta-neutral-color {
+    color: var(--dark-grayish-magenta-neutral);
+}
+
+.light-grayish-magenta-neutral-color {
+    color: var(--light-grayish-magenta-neutral);
+}
+
+.white-neutral-color {
+    color: var(--white-neutral);
+}
+
+/* Backgrounds */
+.dark-magenta-primary-bg {
+    background-color: var(--dark-magenta-primary);
+}
+
+.light-grayish-magenta-neutral-bg {
+    background-color: var(--light-grayish-magenta-neutral);
+}
